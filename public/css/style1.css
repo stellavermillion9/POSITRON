@@ -1,0 +1,11 @@
+.form-group{
+    padding-left: 5rem ;
+    padding-top: 1rem ;
+}
+
+.btn{
+    position: relative;
+    top: 310px;
+    right: 250px;
+    margin-top: 5.5rem;
+}
