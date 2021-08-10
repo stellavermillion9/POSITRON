@@ -1,0 +1,110 @@
+.col-md-5 span{
+    color: deepskyblue;
+}
+
+/*.col-md-5 {
+    margin-left: 12.5px;
+    background-color: #fff;
+    padding-top: 15rem;
+    margin-right: 0.5rem;
+    padding-right:2rem ;
+}
+
+.col-md-6 {
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+    margin-left: 4rem;
+}*/
+
+.col-sm-7{
+    float: right;
+    padding-top: 10rem;
+    padding-bottom: 10.8rem;
+    padding-left: 4rem;
+}
+
+.col-sm-4 {
+    float: left;
+    text-align: left;
+    margin-top: 15rem;
+    padding-left: 15px;
+}
+
+.col-sm-4 span{
+    color: blue;
+}
+
+#search{
+    width: 630px;
+    height: 40px;
+    border: 1px solid;
+    border-color: deepskyblue;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+[type=search]{
+    border-radius: 30px;
+    outline: 0px;
+}
+
+.row {
+    width: auto;
+    height: auto;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 0.9em;
+    width: 630px;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px (0,0,0,0.15);
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+#kolom1{
+    background-color: #fff;
+    margin-bottom: -1rem;
+}
+
+#kolom2{
+    background-color: #fff;
+}
+
+.content-table thead {
+}
+
+.content-table thead tr {
+    background-color: rgb(138, 164, 214);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th{
+
+}
+
+.content-table td {
+    padding: 12px 15px;
+    padding-top: 1rem;
+    background-color: #fff;
+}
+
+.content-table tbody td{
+    border-left: 0.005px solid;
+    border-right: 0.005px solid;
+    border-bottom: 0.005px solid;
+}
+
+.btn {
+    position: absolute;
+    padding-left: 5px;
+}

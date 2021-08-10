@@ -503,7 +503,7 @@ input {
 
 .logo_item{
   padding-top: -3px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 
 }
@@ -516,7 +516,7 @@ input {
 
  .logo {
   display: grid;
-  height: 75vh;
+  height: 60vh;
   grid-template-columns: 1fr 1fr 3fr 1fr;
    
 }
@@ -1216,6 +1216,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 	max-width:1080px;
   margin-bottom: 8rem;
   margin-top: 10rem;
+  padding-bottom: 4rem;
 }
 
 #progress-bar-container {
@@ -1259,6 +1260,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 	list-style:none;
 	float:left;
 	width:20%;
+  margin-top: 10px;
 	text-align:center;
 	color:#aaa;
 	text-transform:uppercase;
@@ -1273,9 +1275,9 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 
 #progress-bar-container li .step-inner {
 	position:absolute;
+  bottom: -16px;
 	width:100%;
-	bottom:-1px;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 #progress-bar-container li.active, #progress-bar-container li:hover {
@@ -1291,7 +1293,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 	margin:auto;
 	border:solid 7px #fff;
 	border-radius:50%;
-	margin-top:40px;
+	margin-top:52px;
 	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
 	transition:all ease 0.2s;
      
@@ -1312,6 +1314,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 	height:4px;
 	position:absolute;
 	left:10%;
+  bottom: 1px;
 	top:48px;
 	z-index:1;
 	border-radius:50px;
@@ -1320,11 +1323,12 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 
 #progress-bar-container #line-progress {
 	content:" ";
-	width:3%;
+	width:0%;
 	height:100%;
 	background: #207893;	 
 	background: linear-gradient(to right, #207893 0%,#2ea3b7 100%); 
 	position:absolute;
+  bottom: -1.5px;
 	z-index:2;
 	border-radius:50px;
 	transition:all ease 0.9s;
@@ -1333,7 +1337,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 #progress-content-section {
 	width:90%;
 	margin: auto;
-	background: #f3f3f3;
+	background: var(--body-color);
 	border-radius: 4px;
 }
 
@@ -1394,7 +1398,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
   font-size: 58px;
 }
 
-.col button{
+.row button{
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -1405,7 +1409,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
   color: rgb(12, 12, 12);
 }
 
-.col button {
+.row button {
   background-color: var(--first-color-alt);
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -1413,11 +1417,101 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
 
 .card {
   width: 100%;
-	height: 56.5%;
+	height: 50%;
   padding: 15px;
 	border-radius: 10px;
+  border: none;
 	position: relative;
-	box-shadow: 0 10px 10px rgba(0,0,0,.1);
-  margin-bottom: 15px;
-  background-color:#e8eeff;
+  margin-bottom: 3.5rem;
+  background-color: var(--body-color);
+}
+
+.carousel {
+  padding-bottom: 5rem;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#Img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)}
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
 }

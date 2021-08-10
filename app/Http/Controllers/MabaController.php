@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Maba;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Imports\MabaImport;
 
 class MabaController extends Controller
 {
@@ -113,5 +115,30 @@ class MabaController extends Controller
     {
         $maba->delete();
         return redirect('maba')->with('success', 'Hapus Data Berhasil');
+    }
+
+    public function import(Request $request, Maba $maba)
+    {
+        $this->validate($request, [
+			'file' => 'required|mimes:csv,xls,xlsx'
+		]);
+ 
+		// menangkap file excel
+		$maba = $request->file('file');
+ 
+		// membuat nama file unik
+		$nama_file = rand().$maba->getClientOriginalName();
+
+		$maba->move('file_maba',$nama_file);
+        $path = storage_path('/file_maba' .$nama_file);
+        
+		// import data
+		Excel::import(new MabaImport, public_path('/file_maba/' .$nama_file));
+ 
+		// notifikasi dengan session
+		//Session::flash('sukses','Data Berhasil Diimport!');
+ 
+		// alihkan halaman kembali
+		return redirect('/maba');
     }
 }

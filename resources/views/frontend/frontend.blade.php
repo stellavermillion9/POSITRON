@@ -141,8 +141,6 @@
             </section>
 
             <!-- ==================================================  Pengenalan Logo  ================================================== -->
-           
-            </script>
 <script type="text/javascript">
     function changeText1() {
         document.getElementById("pText").innerHTML = "<h3>Filosofi 2</h3> <br>mempunyai arti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
@@ -212,13 +210,13 @@
     <!--Buku Panduan-->
 
     <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="align-content: center">
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <div class="carousel-item active">
                         <div class="row">
-                    <div class="col" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="col-md-4 offset-md-2" data-aos="fade-right" data-aos-duration="3000">
                         <div class="card">
                         <h1 class="a"> BUKU PANDUAN POSITRON 2021</h1>
                       <p class="a">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero dignissimos molestiae quaerat ducimus aliquam.</p>
@@ -227,14 +225,14 @@
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2">2</button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3">3</button>
                     </div>
-                    <div class="col" data-aos="fade-left" data-aos-duration="3000">
-                        <img src="img/place1.jpg" class="d-block w-10" alt="...">
+                    <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
+                        <img id="Img" src="img/place1.jpg" class="d-block w-10" alt="...">
                     </div>
                     </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                    <div class="col" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="col-md-4 offset-md-2" data-aos="fade-right" data-aos-duration="3000">
                         <div class="card">
                         <h1 class="a"> Twibbon</h1>
                         <p class="a">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis doloribus ab aliquam voluptas veniam sapiente?</p>
@@ -242,16 +240,16 @@
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2">2</button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3">3</button>
-                    </div>
-                    <div class="col" data-aos="fade-left" data-aos-duration="3000">
-                        <img src="img/place2.jpg" class="d-block w-10" alt="...">
+                   </div>
+                    <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
+                        <img id="Img" src="img/place2.jpg" class="d-block w-10" alt="...">
                     </div>
                 </div>
                 </div>
                     <div class="carousel-item">
                         <div class="row">
-                    <div class="col" data-aos="fade-right" data-aos-duration="3000">
-                        <div class="card">
+                    <div class="col-md-4 offset-md-2" data-aos="fade-right" data-aos-duration="3000">
+                       <div class="card">
                         <h1 class="a"> Sembarang wes </h1>
                         <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid maxime quibusdam adipisci alias non recusandae.</p>
                     </div>
@@ -259,18 +257,12 @@
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2">2</button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3">3</button>
                     </div>
-                    <div class="col" data-aos="fade-left" data-aos-duration="3000">
-                        <img src="img/place3.jpg" class="d-block w-10" alt="...">
+                    <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
+                        <img id="Img" src="img/place3.jpg" class="d-block w-10" alt="...">
                     </div>
                     </div>
                     </div>
                   </div>
-                  <div class="col-lg-1">
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"
-                    aria-hidden="true"><</button>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"
-                    aria-hidden="true">></button>
                 </div>
                 </div>
 
@@ -359,6 +351,7 @@
             </div>
             
             <div id="progress-content-section">
+                
                 <div class="section-content discovery active">
                     <h2>Upacara Penerimaan Maba</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
@@ -483,8 +476,6 @@
                     </div>
                 </div>
             </section> -->
-
-            
 
             <!--==================== PLACES ====================-->
             <!-- <section class="place section" id="place">
