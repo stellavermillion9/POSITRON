@@ -467,9 +467,9 @@ input {
 }
 
 /*=============== VIDEO ===============*/
-.video__container {
+/*.video__container {
   /* padding-bottom: 1rem; */
-}
+/*}*/
 
 .video__description {
   text-align: left;
@@ -516,7 +516,7 @@ input {
 
  .logo {
   display: grid;
-  height: 60vh;
+  height: 80vh;
   grid-template-columns: 1fr 1fr 3fr 1fr;
    
 }
@@ -534,22 +534,27 @@ input {
 }
 
 
-svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
+svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   cursor: pointer;
+  color: blue;
 }
 
-#Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4 {
-  fill: black;
+.icon rect {
+  background: var(--body-color);
 }
 
-#Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4 {
+#Button-1, #Button-2, #Button-3, #Button-4, #Button-5 {
+  fill: rgb(0, 0, 0);
+}
+
+#Button-1, #Button-2, #Button-3, #Button-4, #Button-5 {
   transition: all 1s ease;
 }
 
 
 
- #Rectangle_6:hover{
-  fill: rgb(44, 255, 164);
+ #Button-1:hover{
+  fill: rgb(34, 126, 15);
   transition: 1s;
 }
 
@@ -557,27 +562,39 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
   opacity: 1;
 }
 
-#Rectangle_6 #description_1:hover{
+#Button-1 #description_1:hover{
   opacity: 1;
   transition: 1s ease;
 }
 
- #Rectangle_4:hover{
-  fill: blueviolet;
+ #Button-5:hover{
+  fill: rgb(214, 102, 98);
   transition: 1s;
 }
 
- #Rectangle_7:hover{
+#Button-6:hover{
+  fill: rgb(165, 50, 46);
+  transition: 1s;
+}
+
+#Button-7:hover{
+  fill: rgb(218, 155, 19);
+  transition: 1s;
+}
+
+ #Button-2:hover{
   fill: rgb(123, 169, 238);
   transition: 1s;
 }
 
- #Rectangle_8:hover{
-  fill: rgb(237, 85, 186);
-  transition: 1s;
+ #Button-4:hover{
+  transition: 1.5s;
+  transform: scale(1.5 );
+  transform-origin: initial;
 }
 
-#Rectangle_5:hover{
+
+#Button-3:hover{
   fill: rgb(0, 247, 255);
   transition: 1s;
 }
@@ -1181,9 +1198,9 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
   .video__container {
     grid-template-columns: .7fr;
   }
-  .video__description {
-    /* padding: 0 8rem; */
-  }
+  /*.video__description {
+     padding: 0 8rem; 
+  }*/
   .place__container {
     gap: 3rem 2rem;
   }
@@ -1515,3 +1532,7 @@ svg #Rectangle_6, #Rectangle_7, #Rectangle_5, #Rectangle_8, #Rectangle_4{
       width: 100%;
   }
 }
+
+/*.icon img{
+
+}*/

@@ -1,3 +1,86 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /* Change favorite color to match images */
+  /*Green dark 190 - Green 171 - Grren Blue 200*/
+  --hue-color: 190;
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 64%, 22%);
+  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  --input-color: hsl(var(--hue-color), 24%, 97%);
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --white-color: #FFF;
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Open Sans', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --first-color-second: hsl(var(--hue-color), 54%, 12%);
+  --title-color: hsl(var(--hue-color), 24%, 95%);
+  --text-color: hsl(var(--hue-color), 8%, 75%);
+  --input-color: hsl(var(--hue-color), 29%, 16%);
+  --body-color: hsl(var(--hue-color), 29%, 12%);
+  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+}
+
 .col-md-5 span{
     color: deepskyblue;
 }
@@ -21,6 +104,7 @@
     padding-top: 10rem;
     padding-bottom: 10.8rem;
     padding-left: 4rem;
+    background-color: var(--body-color);
 }
 
 .col-sm-4 {
@@ -31,7 +115,7 @@
 }
 
 .col-sm-4 span{
-    color: blue;
+    color: deepskyblue;
 }
 
 #search{
@@ -72,39 +156,80 @@
 #kolom1{
     background-color: #fff;
     margin-bottom: -1rem;
+    padding-left: 7.5rem;
 }
 
 #kolom2{
     background-color: #fff;
 }
 
-.content-table thead {
+table{
+  margin: auto;
+  padding: 200px;
+  border-spacing: 0;
 }
 
-.content-table thead tr {
-    background-color: rgb(138, 164, 214);
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
+td{
+  border: 2px solid skyblue;
+  padding: 10px 30px;
+  background-color: rgb(236, 250, 255);
+  color: black;
 }
 
-.content-table th{
-
+tr:first-child td:first-child{
+  border-top-left-radius: 10px;
 }
 
-.content-table td {
-    padding: 12px 15px;
-    padding-top: 1rem;
-    background-color: #fff;
+tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
 }
 
-.content-table tbody td{
-    border-left: 0.005px solid;
-    border-right: 0.005px solid;
-    border-bottom: 0.005px solid;
+tr:first-child td:last-child{
+  border-top-right-radius: 10px;
+}
+
+tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
 }
 
 .btn {
     position: absolute;
-    padding-left: 5px;
 }
+
+#hlo span{
+    color: deepskyblue;
+}
+
+.footer__container {
+    row-gap: 4rem;
+    float: left;
+  }
+
+  .footer {
+      padding-top: 15rem;
+      margin-left: 3rem;
+  }
+  
+  .footer__content {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    row-gap: 1rem;
+  }
+  
+  .footer__title, 
+  .footer__subtitle {
+    font-size: var(--h3-font-size);
+  }
+  
+  .footer__title {
+    margin-bottom: var(--mb-0-5);
+  }
+  
+  .footer__description {
+    margin-bottom: var(--mb-2);
+  }
+  
+  .footer__social {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1-25);
+  }
