@@ -58,7 +58,7 @@
   --img-scale: scale(1.1);
 }
 
-@media screen and (min-width: 968px) {
+/*@media screen and (min-width: 968px) {
   :root {
     --biggest-font-size: 4rem;
     --h1-font-size: 2.25rem;
@@ -68,7 +68,7 @@
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
   }
-}
+}*/
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
@@ -79,6 +79,17 @@ body.dark-theme {
   --body-color: hsl(var(--hue-color), 29%, 12%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar{
+  position: fixed;
+  width: 85%;
+  backgrond:var(--body-color);
 }
 
 .col-md-5 span{
@@ -99,30 +110,54 @@ body.dark-theme {
     margin-left: 4rem;
 }*/
 
-.col-sm-7{
-    float: right;
-    padding-top: 10rem;
-    padding-bottom: 10.8rem;
-    padding-left: 4rem;
-    background-color: var(--body-color);
+.row{
+  --bs-gutter-x: -1.5rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
-.col-sm-4 {
+body{
+  width: auto;
+  background-image: url(/img/bgbody.png);
+  background-size: cover;
+  height: max-content;
+}
+
+.col-md-7{
+    /*padding-top: 12rem;*/
+    float: right;
+   padding-top: 12rem;
+   /*background: var(--body-color);*/
+   background-size: cover;
+}
+
+.col-md-5{
     float: left;
     text-align: left;
-    margin-top: 15rem;
-    padding-left: 15px;
+    padding-top: 15rem;
+    /*background-image: url(/img/bgbody.png);*/
+    background-size: cover;
+    /*background: rgb(206, 243, 255);*/
+    /*background: var(--body-color);*/
+    background: none;
+}
+
+.col-sm-4 h2{
+  margin-bottom: 25px;
 }
 
 .col-sm-4 span{
     color: deepskyblue;
 }
 
+.fa-search:hover{
+  transform: scale(1.1);
+}
+
 #search{
     width: 630px;
     height: 40px;
-    border: 1px solid;
-    border-color: deepskyblue;
+    border: none;
     border-radius: 30px;
     margin-bottom: 20px;
     padding-left: 40px;
@@ -135,10 +170,12 @@ body.dark-theme {
     outline: 0px;
 }
 
-.row {
-    width: auto;
-    height: auto;
+
+.fa-search{
+  position: absolute;
+  margin-top: 3px;
 }
+
 
 .content-table {
     border-collapse: collapse;
@@ -149,13 +186,11 @@ body.dark-theme {
     border-radius: 10px 10px 0 0;
     box-shadow: 0 0 10px (0,0,0,0.15);
     text-align: center;
-    overflow: hidden;
     
 }
 
 #kolom1{
     background-color: #fff;
-    margin-bottom: -1rem;
     padding-left: 7.5rem;
 }
 
@@ -170,9 +205,8 @@ table{
 }
 
 td{
-  border: 2px solid skyblue;
+  border: 2px solid skyblue;;
   padding: 10px 30px;
-  background-color: rgb(236, 250, 255);
   color: black;
 }
 
@@ -194,42 +228,80 @@ tr:last-child td:last-child{
 
 .btn {
     position: absolute;
+    border: none;
 }
 
 #hlo span{
     color: deepskyblue;
 }
 
-.footer__container {
-    row-gap: 4rem;
-    float: left;
+#sosmed {
+  padding-top: 20rem;
+}
+
+#sosmed .fa{
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/*.card-footer .fa{
+  margin-right: 20.5rem;
+  padding-left: 2rem;
+  padding-bottom: 4.36rem;
+  color: black;
+  text-decoration: none;
+}
+
+.card-footer{
+  padding-bottom: 15px;
+}*/
+
+  .container h2{
+    font-size: 37.5px;
   }
 
-  .footer {
-      padding-top: 10rem;
-      margin-left: 3rem;
+  .container p{
+    font-size: 17px;
   }
+
+ @media screen and (max-width: 768px){
+
+  body{
+    width: auto;
+    height: auto;
+  }
+
+  #search{
+    width: 390px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-size: 0.9em;
+  width: 390px;
+  padding-top: 20px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px (0,0,0,0.15);
+  text-align: center;
   
-  .footer__content {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    row-gap: 1rem;
-  }
-  
-  .footer__title, 
-  .footer__subtitle {
-    font-size: var(--h3-font-size);
-  }
-  
-  .footer__title {
-    margin-bottom: var(--mb-0-5);
-  }
-  
-  .footer__description {
-    margin-bottom: var(--mb-2);
-  }
-  
-  .footer__social {
-    font-size: 1.25rem;
-    color: var(--title-color);
-    margin-right: var(--mb-1-25);
-  }
+}
+
+.col-md-7{
+  text-align: center;
+  padding-right: 15px;
+}
+
+.col-md-5{
+  text-align: center;
+  padding-right: 15px;
+}
+ }

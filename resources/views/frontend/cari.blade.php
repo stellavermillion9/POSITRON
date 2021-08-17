@@ -16,8 +16,11 @@
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
 
         
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -34,32 +37,83 @@
     <title>Cari Kelompok</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+          <a href="/" class="navbar-brand">POSITRON</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="navbar-item">
+                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                  </li>
+                  <li class="navbar-item">
+                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+              </ul>
+          </div>
       </div>
-    </nav>
+ </nav>
 
-    <div class="row-cols-auto">
+<div class="row">
+        <div class="col-md-5" >
+        <h1>Cari tahu <span>tim</span><br> dan mentor kamu</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima unde dolore alias!</p>
+        <div id="sosmed">
+    <a href="#" class="fa fa-instagram">@hmjelektro_um</a>
+    <a href="#" class="fa fa-facebook">@hmjelektro_um</a>
+    <a href="#" class="fa fa-twitter">@hmjelektro_um</a>
+</div>
+</div>
+    <div class="col-md-7">
+        <form class="cari" action="/cari" method="GET"> 
+            <button type="submit" class="btn" value="CARI"><span class="fa fa-search"></span></button>
+              <input type="search" name="cari" id="search" placeholder="Masukkan NIM" value="{{old('cari')}}">
+          </form>
+
+          <div id="read"></div>
+          @foreach($data as $d)
+          <div id="hlo">
+              <h1>Halo, <span>{{$d->nama}}</span> </h1>
+              <p>Lorem ipsum dolor sit amet consectetur {{$d->offering}}, adipisicing elit. Doloribus, autem.</p>
+          </div>
+          <table class="content-table">
+              <thead>
+                  <tr>
+                      <th>Nama</th>
+                      <th>Offering</th>
+                      <th>Peran</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>{{$d->nama}}</td>
+                      <td>{{$d->offering}}</td>
+                      <td>{{$d->peran}}</td>
+                  </tr>
+              </tbody>
+          </table>
+          @endforeach
+    </div>
+</div>
+
+<!--<footer>
+ <div class="card-footer">
+     <a href="#" class="fa fa-instagram">@hmjelektro_um</a>
+     <a href="#" class="fa fa-facebook">@hmjelektro_um</a>
+     <a href="#" class="fa fa-twitter">@hmjelektro_um</a>
+ </div>
+</footer>-->
+
+    <!--<div class="row-cols-auto">
       <div class="col-sm-4" id="kolom1">
           <div class="container">
           <h2>Cari Tahu <span>tim</span> <br> dan mentor kamu </h2>
@@ -115,7 +169,7 @@
           @endforeach
       </div>
       </div>
-      </div>
+      </div>-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -129,7 +183,9 @@
     -->
 
     
-    
-  </body>
+</div>
+
+
+</body>
   
 </html>
