@@ -7,7 +7,6 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <script type="text/javascript" src="js/jquery.js"></script>
@@ -65,7 +64,7 @@
  </nav>
 
 <div class="row">
-        <div class="col-md-5" >
+        <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000">
         <h1>Cari tahu <span>tim</span><br> dan mentor kamu</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima unde dolore alias!</p>
         <div id="sosmed">
@@ -73,8 +72,12 @@
     <a href="#" class="fa fa-facebook">@hmjelektro_um</a>
     <a href="#" class="fa fa-twitter">@hmjelektro_um</a>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                  </script>
 </div>
-    <div class="col-md-7">
+    <div class="col-md-7" data-aos="fade-left" data-aos-duration="3000">
         <form class="cari" action="/cari" method="GET"> 
             <button type="submit" class="btn" value="CARI"><span class="fa fa-search"></span></button>
               <input type="search" name="cari" id="search" placeholder="Masukkan NIM" value="{{old('cari')}}">
@@ -104,6 +107,10 @@
           </table>
           @endforeach
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                  </script>
 </div>
 
 <!--<footer>
@@ -185,6 +192,7 @@
 
     
 </div>
+
 
 
 </body>
