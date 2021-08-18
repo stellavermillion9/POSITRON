@@ -20,6 +20,7 @@
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         
+        
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -157,6 +158,12 @@
         document.getElementById("pText").innerHTML = "<h3>Filosofi 4</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
     }
     function changeText5() {
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 5</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+    }
+    function changeText6() {
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 5</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+    }
+    function changeText7() {
         document.getElementById("pText").innerHTML = "<h3>Filosofi 5</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
     }
     function changeTextdefault() {
@@ -584,7 +591,7 @@
     <path d="M167.511 231.87C151.773 231.205 139.515 216.907 140.132 199.935C140.749 182.963 154.007 169.744 169.745 170.409C185.483 171.075 197.742 185.372 197.125 202.344C196.508 219.316 183.249 232.535 167.511 231.87Z" fill="#696969"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M169.505 170.402C162.07 170.19 154.852 173.119 149.391 178.564L149.522 178.717L155.491 178.97L171.488 179.646L171.806 179.804C176.081 180.516 180.054 182.708 183.103 186.087C186.744 190.123 188.78 195.534 188.775 201.165C188.77 206.797 186.725 212.204 183.077 216.233C179.428 220.262 174.464 222.594 169.243 222.732C164.022 222.871 158.958 220.804 155.13 216.973C151.302 213.142 149.014 207.851 148.752 202.226C148.503 196.858 150.119 191.592 153.27 187.45L143.412 187.033C141.12 191.821 140.014 197.215 140.268 202.684C140.641 210.695 143.9 218.232 149.352 223.688C154.804 229.144 162.016 232.087 169.452 231.89C176.887 231.693 183.957 228.371 189.154 222.633C194.35 216.895 197.263 209.194 197.27 201.174C197.277 193.153 194.377 185.447 189.191 179.698C184.004 173.95 176.94 170.614 169.505 170.402Z" />
     </g>
-    <g id="Button-6" onMouseOver="changeText5()" onmouseout="changeTextdefault()">
+    <g id="Button-6" onMouseOver="changeText6()" onmouseout="changeTextdefault()">
     <path d="M191.958 220.939C194.397 217.875 196.253 214.323 197.42 210.485C198.586 206.647 199.041 202.599 198.756 198.572C198.472 194.545 197.455 190.618 195.764 187.015C194.072 183.412 191.739 180.203 188.897 177.572L181.819 186.463C183.578 188.091 185.022 190.077 186.069 192.308C187.116 194.538 187.746 196.969 187.921 199.461C188.097 201.954 187.816 204.46 187.094 206.835C186.372 209.211 185.223 211.409 183.713 213.306L191.958 220.939Z" />
     <path d="M191.958 220.94C192.374 220.418 192.773 219.882 193.154 219.332L184.454 212.311C184.218 212.652 183.971 212.984 183.714 213.307L191.958 220.94Z" fill="#FDFDFD"/>
     <path d="M190.163 178.815C189.705 178.337 189.233 177.876 188.746 177.432L181.726 186.376C182.027 186.651 182.32 186.937 182.603 187.233L190.163 178.815Z" fill="#FDFDFD"/>
@@ -597,7 +604,7 @@
     <path d="M197.11 190.356C196.891 189.711 196.653 189.073 196.394 188.445L186.46 193.193C186.62 193.582 186.768 193.976 186.903 194.376L197.11 190.356Z" fill="#FDFDFD"/>
     <path d="M198.502 196.181C198.404 195.502 198.285 194.826 198.145 194.156L187.544 196.728C187.631 197.143 187.704 197.561 187.765 197.982L198.502 196.181Z" fill="#FDFDFD"/>
     </g>
-    <g id="Button-7" onMouseOver="changeText5()" onmouseout="changeTextdefault()">
+    <g id="Button-7" onMouseOver="changeText7()" onmouseout="changeTextdefault()">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M178.33 208.181C181.655 202.496 180.073 194.957 174.801 191.371C169.529 187.784 162.538 189.491 159.212 195.176C155.887 200.861 157.469 208.4 162.741 211.986C168.013 215.573 175.004 213.866 178.33 208.181ZM174.564 205.619C172.549 209.064 168.308 210.096 165.117 207.926C161.925 205.755 160.963 201.182 162.978 197.738C164.993 194.293 169.234 193.261 172.425 195.431C175.62 197.604 176.577 202.178 174.564 205.619ZM177.97 202.043C177.915 203.739 177.456 205.44 176.558 206.976C173.85 211.606 168.152 212.997 163.859 210.076C161.008 208.136 159.481 204.775 159.57 201.38C159.482 204.775 161.008 208.135 163.859 210.074C168.152 212.995 173.85 211.604 176.558 206.974C177.456 205.439 177.914 203.738 177.97 202.043ZM177.707 202.034C177.816 198.714 176.333 195.417 173.543 193.519C169.374 190.683 163.839 192.03 161.206 196.531C160.342 198.008 159.897 199.643 159.836 201.274C159.897 199.644 160.343 198.009 161.206 196.532C163.839 192.032 169.374 190.685 173.543 193.521C176.333 195.419 177.816 198.714 177.707 202.034Z" fill="white"/>
     <path d="M165.126 199.198C166.397 197.024 169.057 196.375 171.073 197.746C173.088 199.117 173.69 201.986 172.419 204.159C171.148 206.333 168.487 206.982 166.472 205.611C164.457 204.24 163.854 201.371 165.126 199.198Z"/>
     <path d="M148.727 200.831L157.478 201.201L156.471 228.903C150.656 225.85 149.173 223.586 147.95 222.184L148.727 200.831Z" fill="#696969"/>

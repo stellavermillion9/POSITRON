@@ -298,10 +298,17 @@ tr:last-child td:last-child{
 .col-md-7{
   text-align: center;
   padding-right: 15px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+#sosmed {
+  padding-top: 5rem;
 }
 
 .col-md-5{
   text-align: center;
   padding-right: 15px;
+  margin-bottom: 5rem;
 }
  }
