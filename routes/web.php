@@ -31,14 +31,13 @@ Route::post('register/hmj', [App\Http\Controllers\AuthController::class, 'regist
 
 
 Route::post('/import_excel', [App\Http\Controllers\ImportControllers::class, 'import']);
- 
+
 Route::group(['middleware' => 'auth'], function () {
 
     Route::resource('maba', MabaController::class);
     Route::post('maba/import', [App\Http\Controllers\MabaController::class, 'import'])->name('maba.import');
     Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     Route::get('logout', [App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
- 
 });
 
 Route::get('/', function () {

@@ -91,6 +91,10 @@ body.dark-theme {
   bottom: 4rem;
 }
 
+.nav{
+  color: white;
+}
+
 .change-theme, .change-theme-name {
   color: var(--text-color);
 }
@@ -119,12 +123,10 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
+  background-image: url(/asset/bg6.png);
 }
 
 h1, h2, h3 {
-  color: var(--title-color);
   font-weight: var(--font-semi-bold);
   font-family: var(--title-font);
 }
@@ -168,6 +170,10 @@ input {
   padding: 4.5rem 0 2.5rem;
 }
 
+.home__data span{
+  color: white;
+}
+
 .section__title {
   font-size: 30px;
   font-weight: bold;
@@ -208,8 +214,9 @@ input {
   
 }
 
+
 .nav__logo, .nav__toggle {
-  color: var(--first-color);
+  color: #fff;
 }
 
 .nav__logo {
@@ -293,13 +300,13 @@ input {
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: white;
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: white;
   text-decoration: none;
   color: rgb(145, 145, 145);
   transition: 1s;
@@ -321,7 +328,8 @@ input {
 
 /* Change background header */
 .scroll-header {
-  background-color: var(--body-color);
+  background-color: none;
+  color: white;
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 
@@ -362,7 +370,9 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  background-image: url(/asset/bg1.png);
+  background-size: cover;
 }
 
 .home__data-subtitle, 
@@ -443,6 +453,7 @@ input {
   padding: .8rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  opacity: 0;
 }
 
 .button:hover {
@@ -467,9 +478,10 @@ input {
 }
 
 /*=============== VIDEO ===============*/
-/*.video__container {
-  /* padding-bottom: 1rem; */
-/*}*/
+.video {
+background-image: url(/asset/bg2.png);
+background-size: cover;
+}
 
 .video__description {
   text-align: left;
@@ -478,6 +490,9 @@ input {
 
 .video__content {
   
+  width: 100%;
+  height: 100%<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <script src="js/mediaelement-and-player.min.js"></script> 
+  ;
   border: nones;
   border-radius: 20px;
   position: relative;
@@ -491,7 +506,7 @@ input {
   position: absolute;
   right: 1rem;
   bottom: 1rem;
-  padding: 1rem 1.5rem;
+  padding: 15.5rem 29rem;
 }
 
 .video__button-icon {
@@ -500,6 +515,10 @@ input {
 
 /* ==================================================  Logo Description  ================================================== */
 
+.logo__description{
+  background-image: url(/asset/bg3.png);
+  background-size: cover;
+}
 
 .logo_item{
   padding-top: -3px;
@@ -507,12 +526,6 @@ input {
   text-align: center;
 
 }
-
-.logo__description {
-  background-image: url(./assets/img/logo1.png);
-  margin-top: var(--mb-2-5);
-}
-
 
  .logo {
   display: grid;
@@ -877,6 +890,8 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 /*=============== FOOTER ===============*/
 .footer__container {
   row-gap: 5rem;
+  background-image: url(/asset/bg7.png);
+  background-size: cover;
 }
 
 .footer__content {
@@ -1005,14 +1020,13 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   }
   .experience__img,
   .video__container {
-    padding: 0;
+    margin-top: auto;
   }
 }
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .video__container {
-    display: grid;
     grid-template-columns: .6fr;
     justify-content: center;
   }
@@ -1037,7 +1051,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     height: calc(var(--header-height) + 1.5rem);
   }
   .nav__link {
-    color: var(--first-color);
+    color: white;
     text-transform: initial;
   }
   .nav__link:hover {
@@ -1087,6 +1101,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   }
   .home__data {
     align-self: flex-end;
+    text-align: center;
   }
   .home__social {
     flex-direction: row;
@@ -1224,24 +1239,27 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     margin: 0;
   }
   .home__container, .home__img {
-    height: 640px;
+    height: 120vh;
   }
+}
+
+#timeline {
+  background-image: url(/asset/bg6.png);
+  background-size: cover;
 }
 
 .process-wrapper {
 	margin:auto;
-	max-width:1080px;
-  margin-bottom: 8rem;
-  margin-top: 10rem;
+	max-width:auto;
   padding-bottom: 4rem;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
 }
 
 #progress-bar-container {
 	position: relative;
-	width:90%;
-	margin:auto;
-	height:100px;
-	margin-top:65px;
+	width:100%;
+	height:140px;
     
 }
 
@@ -1252,7 +1270,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 	z-index:9999;
 	position:absolute;
 	width:100%;
-	margin-top:-40px
+	margin-top:-20px
 }
 
 #progress-bar-container li:before {
@@ -1354,7 +1372,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 #progress-content-section {
 	width:90%;
 	margin: auto;
-	background: var(--body-color);
+	background: none;
 	border-radius: 4px;
 }
 
@@ -1432,6 +1450,10 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   color: rgb(255, 255, 255);
 }
 
+.a {
+  color: #fff;
+}
+
 .card {
   width: 100%;
 	height: 50%;
@@ -1441,10 +1463,47 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 	position: relative;
   margin-bottom: 3.5rem;
   background-color: var(--body-color);
+  background: none;
 }
+
 
 .carousel {
   padding-bottom: 5rem;
+  padding-top: 7rem;
+  background-image: url(/asset/bg4.png);
+  background-size: cover;
+}
+
+#about{
+  background-image: url(/asset/bg5.png);
+  background-size: cover;
+  align-content: center;
+}
+
+#robith{
+  padding: 5rem;
+}
+
+#about-text{
+  text-align: left;
+  padding-top: 14rem;
+}
+
+#about-text h1{
+  color: blue;
+  font-size: 60px;
+}
+
+#about-text span{
+  color: orange;
+}
+
+#cek{
+  background-color: blue;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
 }
 
 #myImg {
@@ -1531,6 +1590,13 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   .modal-content {
       width: 100%;
   }
+}
+
+.sponsor{
+  background-image: url(/asset/bg7.png);
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 /*.icon img{
