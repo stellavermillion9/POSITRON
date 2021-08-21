@@ -89,7 +89,7 @@ body{
 .navbar{
   position: fixed;
   width: 85%;
-  backgrond:var(--body-color);
+  background:var(--body-color);
 }
 
 .col-md-5 span{
@@ -186,7 +186,7 @@ body{
     border-radius: 10px 10px 0 0;
     box-shadow: 0 0 10px (0,0,0,0.15);
     text-align: center;
-    
+
 }
 
 #kolom1{
@@ -292,7 +292,7 @@ tr:last-child td:last-child{
   border-radius: 10px 10px 0 0;
   box-shadow: 0 0 10px (0,0,0,0.15);
   text-align: center;
-  
+
 }
 
 .col-md-7{

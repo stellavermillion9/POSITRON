@@ -15,22 +15,28 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <script type="text/javascript" src="js/jquery.js"></script>
-	    <script type="text/javascript" src="js/bootstrap.js"></script>	
+	    <script type="text/javascript" src="js/bootstrap.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <script src="js/mediaelement-and-player.min.js"></script> 
-   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <script src="js/mediaelement-and-player.min.js"></script>
+
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
+
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="css/styles.css">
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+        {{-- Font Montserrat --}}
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
         <title>POSITRON</title>
     </head>
@@ -56,7 +62,7 @@
                     </ul>
 
                     <!-- <div class="nav__dark">
-                         Theme change button 
+                         Theme change button
                         <span class="change-theme-name">Dark mode</span>
                         <i class="ri-moon-line change-theme" id="theme-button"></i>
                     </div> -->
@@ -76,13 +82,15 @@
                 <!-- <img src="/img/home1.jpg" alt="" class="home__img"> -->
 
                 <div class="home__container">
-                    <div class="home__data">
-                        <div class="container">
-                        <img class="home__data-title" src="/img/logo.png" alt="">
-                        <h1>2021</h1>
-                        <!-- <h1 class="home__data-title">Positron</b></h1> -->
-                        <span class="home__data-subtitle"><h3>Program Orientasi Mahasiswa Teknik Elektro</h3></span>
-                    </div>
+                    <div class="home__data ">
+                        <div class="container ">
+                            <h1 id="electrical">POSITRON</h1>
+                            <h1 id="electrical">2021</h1>
+                            <!-- <h1 class="home__data-title">Positron</b></h1> -->
+                            <h3 id="programorientasi">Program Orientasi Mahasiswa Teknik Elektro</h3>
+                            <h3 id="hashtag">#UNITY #SOMETHINGBIGCOMESNOW</h3>
+                            <hr id="garis">
+                        </div>
                     </div>
 
                     <!-- <div class="home__social">
@@ -114,10 +122,10 @@
 
             <!--==================== VIDEO ====================-->
             <section class="video section">
-                
+
 
                 <div class="video__container container">
-                    
+
 
                     <div class="video__content">
                         <video id="video-file" width="1920" height="720">
@@ -132,12 +140,12 @@
 
                 <div class="video__container container">
                     <p class="section__title">Kene Lo, Elektro</p>
-                    <p class="video__description">Find out more with our video of the most beautiful and 
+                    <p class="video__description">Find out more with our video of the most beautiful and
                         pleasant places for you and your family.
                     </p>
-                </div> 
-                
-                
+                </div>
+
+
                 <!-- <img src="/img/2021.png" alt=""> -->
             </section>
 
@@ -603,8 +611,8 @@
     <path d="M148.727 200.831L157.478 201.201L156.471 228.903C150.656 225.85 149.173 223.586 147.95 222.184L148.727 200.831Z" fill="#696969"/>
     </g>
     </svg>
-                    
-    
+
+
                <!-- <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Frame 1">
                     <rect width="200" height="200" fill="white"/>
@@ -642,7 +650,7 @@
                 <p id="pText">POSITRON adalah Lorem ipsum dolor sit amet. </p>
             </div>
         </div>
-        
+
     </section>
 
     <!--Buku Panduan-->
@@ -804,8 +812,8 @@
           <div id="carouselExampleControlsNoTouching" class="carousel-item">
             <img src="img/place3.jpg" class="d-block w-10" alt="...">
           </div>
-        </div> -->      
-        </div>      
+        </div> -->
+        </div>
         </div>
       </div>
     <!--Buku Panduan-->
@@ -813,7 +821,7 @@
     <!--==================== DISCOVER ====================-->
     <!-- <section class="discover section" id="discover">
         <h2 class="section__title judul_discover">POSITRON <br> Timeline Event</h2>
-        
+
         <div class="discover__container container swiper-container">
             <div class="swiper-wrapper"> -->
                 <!--==================== DISCOVER 1 ====================-->
@@ -853,7 +861,7 @@
                 </div>
             </div>
         </div> -->
-    
+
 
         <div class="process-wrapper" data-aos="fade-down"
         data-aos-easing="linear"
@@ -866,34 +874,34 @@
                     <li class="step step04"><div class="step-inner">Introduction of Himpunan</div></li>
                     <li class="step step05"><div class="step-inner">NAKO 5.0</div></li>
                 </ul>
-                
+
                 <div id="line">
                     <div id="line-progress"></div>
                 </div>
             </div>
-            
+
             <div id="progress-content-section">
-                
+
                 <div class="section-content discovery active">
                     <h2>Upacara Penerimaan Maba</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
-                
+
                 <div class="section-content strategy">
                     <h2>Forum 1 dan Penugasan</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
-                
+
                 <div class="section-content creative">
                     <h2>Online Course</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
-                
+
                 <div class="section-content production">
                     <h2>Introduction of Himpunan</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
-                
+
                 <div class="section-content analysis">
                     <h2>NAKO 5.0</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
@@ -903,32 +911,32 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
              <script>
-                
+
                 $(".step").click( function() {
                     $(this).addClass("active").prevAll().addClass("active");
                     $(this).nextAll().removeClass("active");
                 });
-                
+
                 $(".step01").click( function() {
                     $("#line-progress").css("width", "0%");
                     $(".discovery").addClass("active").siblings().removeClass("active");
                 });
-                
+
                 $(".step02").click( function() {
                     $("#line-progress").css("width", "25%");
                     $(".strategy").addClass("active").siblings().removeClass("active");
                 });
-                
+
                 $(".step03").click( function() {
                     $("#line-progress").css("width", "50%");
                     $(".creative").addClass("active").siblings().removeClass("active");
                 });
-                
+
                 $(".step04").click( function() {
                     $("#line-progress").css("width", "75%");
                     $(".production").addClass("active").siblings().removeClass("active");
                 });
-                
+
                 $(".step05").click( function() {
                     $("#line-progress").css("width", "100%");
                     $(".analysis").addClass("active").siblings().removeClass("active");
@@ -978,9 +986,9 @@
                 </div>
             </section>-->
 
-            
-            
-            
+
+
+
 
             <!--==================== EXPERIENCE ====================-->
             <!-- <section class="experience section">
@@ -1008,7 +1016,7 @@
                         <div class="experience__overlay">
                             <img src="/img/experience1.jpg" alt="" class="experience__img-one">
                         </div>
-                        
+
                         <div class="experience__overlay">
                             <img src="/img/experience2.jpg" alt="" class="experience__img-two">
                         </div>
@@ -1024,7 +1032,7 @@
                     <!--==================== PLACES CARD 1 ====================-->
                     <!-- <div class="place__card">
                         <img src="/img/place1.jpg" alt="" class="place__img">
-                        
+
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -1046,7 +1054,7 @@
                     <!--==================== PLACES CARD 2 ====================-->
                     <!-- <div class="place__card">
                         <img src="/img/place2.jpg" alt="" class="place__img">
-                        
+
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -1068,7 +1076,7 @@
                     <!--==================== PLACES CARD 3 ====================-->
                     <!-- <div class="place__card">
                         <img src="/img/place3.jpg" alt="" class="place__img">
-                        
+
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -1090,7 +1098,7 @@
                     <!--==================== PLACES CARD 4 ====================-->
                     <!-- <div class="place__card">
                         <img src="/img/place4.jpg" alt="" class="place__img">
-                        
+
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -1112,7 +1120,7 @@
                     <!--==================== PLACES CARD 5 ====================-->
                     <!-- <div class="place__card">
                         <img src="/img/place5.jpg" alt="" class="place__img">
-                        
+
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
@@ -1138,13 +1146,13 @@
                 <div class="subscribe__bg">
                     <div class="subscribe__container container">
                         <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
-                        <p class="subscribe__description">Subscribe to our newsletter and get a 
+                        <p class="subscribe__description">Subscribe to our newsletter and get a
                             special 30% discount.
                         </p>
-    
+
                         <form action="" class="subscribe__form">
                             <input type="text" placeholder="Enter email" class="subscribe__input">
-    
+
                             <button class="button">
                                 Subscribe
                             </button>
@@ -1152,7 +1160,7 @@
                     </div>
                 </div>
             </section> -->
-            
+
             <!--==================== SPONSORS ====================-->
 
             <div class="sponsor" data-aos="fade-right" data-aos-duration="3000">
@@ -1205,7 +1213,7 @@
                     <div class="footer__data">
                         <h3 class="footer__title"><img src="/img/logo.png" alt=""></h3>
                         <p class="footer__description">Program Orientasi Mahasiswa Teknik Elektro
-                            
+
                         </p>
                         <div>
                             <a href="https://www.facebook.com/" target="_blank" class="footer__social">
@@ -1222,7 +1230,7 @@
                             </a>
                         </div>
                     </div>
-    
+
                     <div class="footer__data">
                         <h3 class="footer__subtitle">About</h3>
                         <ul>
@@ -1237,7 +1245,7 @@
                             </li>
                         </ul>
                     </div>
-    
+
                     <div class="footer__data">
                         <h3 class="footer__subtitle">HMJ</h3>
                         <ul>
@@ -1252,7 +1260,7 @@
                             </li>
                         </ul>
                     </div>
-    
+
                     <div class="footer__data">
                         <h3 class="footer__subtitle">Support</h3>
                         <ul>
@@ -1286,7 +1294,7 @@
 
         <!--=============== SCROLL REVEAL===============-->
         <script src="/js/scrollreveal.min.js"></script>
-        
+
         <!--=============== SWIPER JS ===============-->
         <script src="/js/swiper-bundle.min.js"></script>
 
