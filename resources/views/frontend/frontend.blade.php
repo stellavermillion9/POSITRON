@@ -913,27 +913,77 @@
 
                 <div class="section-content discovery active">
                     <h2>Upacara Penerimaan Maba</h2>
+                    <div class="row">
+                    <div class="col-6" id="text-timeline">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
+                <div class="col-md-1" id="logo-link">
+                    <img src="/asset/icdesc.png" alt="">
+                    <img src="/asset/iclink.png" alt="">
+                    <img src="/asset/iccalendar.png" alt="">
+                </div>
+            </div>
+            </div>
 
                 <div class="section-content strategy">
                     <h2>Forum 1 dan Penugasan</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
-                </div>
+                    <div class="row">
+                    <div class="col-6" id="text-timeline">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    </div>
+                    <div class="col-md-1" id="logo-link">
+                        <img src="/asset/icdesc.png" alt="">
+                        <img src="/asset/iclink.png" alt="">
+                        <img src="/asset/iccalendar.png" alt="">
+                    </div>
+                    </div>
+                 </div>
 
                 <div class="section-content creative">
                     <h2>Online Course</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    <div class="row">
+                    <div class="col-6" id="text-timeline">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    </div>
+                    <div class="col-md-1" id="logo-link">
+                        <img src="/asset/icdesc.png" alt="">
+                        <img src="/asset/iclink.png" alt="">
+                        <img src="/asset/iccalendar.png" alt="">
+                    </div>
+                    </div>
                 </div>
 
                 <div class="section-content production">
                     <h2>Introduction of Himpunan</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    <div class="row">
+                    <div class="col-6" id="text-timeline">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    </div>
+                    <div class="col-md-1" id="logo-link">
+                        <img src="/asset/icdesc.png" alt="">
+                        <img src="/asset/iclink.png" alt="">
+                        <img src="/asset/iccalendar.png" alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                    </div>
+                    </div>
                 </div>
 
                 <div class="section-content analysis">
                     <h2>NAKO 5.0</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    <div class="row">
+                    <div class="col-6" id="text-timeline">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    </div>
+                    <div class="col-md-1" id="logo-link">
+                        <img src="/asset/icdesc.png" alt="">
+                        <img src="/asset/iclink.png" alt="">
+                        <img src="/asset/iccalendar.png" alt="">
+                    </div>
+                    </div>
                 </div>
                 </div>
             </div>
