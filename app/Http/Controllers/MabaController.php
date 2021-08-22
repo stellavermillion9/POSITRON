@@ -43,10 +43,10 @@ class MabaController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'nama'=>'required',
-            'nim'=>'required',
-            'offering'=>'required',
-            'peran'=>'required',
+            'nama' => 'required',
+            'nim' => 'required',
+            'offering' => 'required',
+            'peran' => 'required',
         ]);
 
         $maba = new Maba();
@@ -91,15 +91,19 @@ class MabaController extends Controller
     public function update(Request $request, Maba $maba)
     {
         $request->validate([
-            'nama'=>'required',
-            'nim'=>'required',
-            'offering'=>'required',
-            'peran'=>'required'
+            'nama' => 'required',
+            'programstudi' => 'required',
+            'offering' => 'required',
+            'nim' => 'required',
+            'kelompok' => 'required',
+            'peran' => 'required',
         ]);
 
         $maba->nama = $request->nama;
-        $maba->nim = $request->nim;
+        $maba->programstudi = $request->programstudi;
         $maba->offering = $request->offering;
+        $maba->nim = $request->nim;
+        $maba->kelompok = $request->kelompok;
         $maba->peran = $request->peran;
         $maba->save();
         return redirect('maba')->with('success', 'Ubah Data Berhasil');
@@ -120,25 +124,25 @@ class MabaController extends Controller
     public function import(Request $request, Maba $maba)
     {
         $this->validate($request, [
-			'file' => 'required|mimes:csv,xls,xlsx'
-		]);
- 
-		// menangkap file excel
-		$maba = $request->file('file');
- 
-		// membuat nama file unik
-		$nama_file = rand().$maba->getClientOriginalName();
+            'file' => 'required|mimes:csv,xls,xlsx'
+        ]);
 
-		$maba->move('file_maba',$nama_file);
-        $path = storage_path('/file_maba' .$nama_file);
-        
-		// import data
-		Excel::import(new MabaImport, public_path('/file_maba/' .$nama_file));
- 
-		// notifikasi dengan session
-		//Session::flash('sukses','Data Berhasil Diimport!');
- 
-		// alihkan halaman kembali
-		return redirect('/maba');
+        // menangkap file excel
+        $maba = $request->file('file');
+
+        // membuat nama file unik
+        $nama_file = rand() . $maba->getClientOriginalName();
+
+        $maba->move('file_maba', $nama_file);
+        $path = storage_path('/file_maba' . $nama_file);
+
+        // import data
+        Excel::import(new MabaImport, public_path('/file_maba/' . $nama_file));
+
+        // notifikasi dengan session
+        //Session::flash('sukses','Data Berhasil Diimport!');
+
+        // alihkan halaman kembali
+        return redirect('/maba');
     }
 }

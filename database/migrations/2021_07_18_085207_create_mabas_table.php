@@ -16,8 +16,10 @@ class CreateMabasTable extends Migration
         Schema::create('maba', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->integer('nim');
+            $table->string('programstudi');
             $table->string('offering');
+            $table->integer('nim');
+            $table->string('kelompok');
             $table->string('peran');
             $table->timestamps();
         });
