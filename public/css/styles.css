@@ -1544,20 +1544,24 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   color: rgb(255, 255, 255);
 }
 
-.a {
-  color: #fff;
+.a{
+  color: white;
 }
 
 .card {
-  width: 100%;
+  width: 110%;
 	height: 50%;
   padding: 15px;
 	border-radius: 10px;
   border: none;
 	position: relative;
   margin-bottom: 3.5rem;
-  background-color: var(--body-color);
   background: none;
+
+}
+
+#pText{
+  color: #fff;
 }
 
 
@@ -1643,6 +1647,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   height: 150px;
 }
 
+
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
   -webkit-animation-name: zoom;
@@ -1703,18 +1708,115 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   }
 
   #teksvideo1{
-    width: 100%;
+    width: 50%;
     font-size: medium;
+  }
+
+  #genre p{
+    font-size: 20px;
+  }
+
+  #desclogo{
+    grid-column: auto;
+  }
+
+  #judulvideo{
+    width: 100%;
+    text-align: center;
+  }
+
+  .col-6{
+    width: 100%;
+  }
+
+  #text-electrical{
+    padding-top: 21rem;
+    font-size: 30px;
+  }
+
+  .sponsor__container{
+    width: 90%;
+  }
+
+  .video__container{
+    margin-left: 2rem;
+  }
+
+  .footer__title{
+    width: 90%;
+    padding-right: 10px;
+  }
+
+  #text-electrical h1{
+    font-size: 45px;
+  }
+
+  #teksvideo2{
+    bottom: auto;
+    width: 100%;
+  }
+
+  #teksvideo1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #descvideo{
+    width: 100%;
+    text-align: left;
   }
 
   #tahunvideo{
     width: 100%;
+    font-weight: 300;
+    font-size: 40px;
   }
 
   .home__data{
     width: 100%;
     height: 100%;
     font-size: 20px;
+  }
+
+  #link-logo{
+    width: 100%;
+    height: 100%;
+  }
+
+  #link-logo img{
+    margin: 10px;
+  }
+
+  #link-logo p{
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  #abcdef {
+    text-align: right;
+    margin-left: 10px;
+  }
+
+  .logo__description{
+    width: 90%;
+    height: 90%;
+  }
+
+  #positron{
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo__description{
+    width: 50%;
+    height: 50%;
+  }
+
+  #text-logo{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
   }
 }
 
@@ -1725,13 +1827,19 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   padding-bottom: 5rem;
 }
 
-#logo-link img{
+#link-logo img{
   width: 40px;
   height: 40px;
-  padding-right: calc(var(--bs-gutter-x) * -.5);
-  margin-bottom: 5px;
-  margin-left: 5px;
-  float: right;
+  float: left;
+}
+
+#link-logo p{
+  text-align: left;
+  margin-left: 25px;
+}
+
+#pText{
+  margin-left: 3rem;
 }
 
 /*.icon img{

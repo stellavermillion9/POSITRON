@@ -83,7 +83,7 @@
 
                 <div class="home__container">
                     <div class="home__data ">
-                        <div class="container ">
+                        <div class="container " id="text-electrical">
                             <h1 id="electrical">POSITRON</h1>
                             <h1 id="electrical">2021</h1>
                             <!-- <h1 class="home__data-title">Positron</b></h1> -->
@@ -129,9 +129,8 @@
 
                     <div class="video__content">
                         <video id="video-file" width="1920" height="720">
-                            <source src="/video/video.mp4" type="video/mp4">
+                            <source src="/asset/kaming sunn.mp4" type="video/mp4">
                         </video>
-
                         <button class="button button--flex video__button" id="video-button">
                             <i class="ri-play-line video__button-icon" id="video-icon"></i>
                         </button>
@@ -149,19 +148,11 @@
 
                 <div class="row" id="teksvideo1">
                     <div class="col-6">
-                        <div class="row">
-                          <div class="col-12">
                             <p id="judulvideo">Elektro?! Unity!</p>
-                          </div>
-                          <div class="col-12">
                             <p id="descvideo">Genre : Laga, Petualangan, Romantis, Misteri, Ilmu, Sejarah, Drama.</p>
-                          </div>
-                          <div class="col-12">
                             <p id="descvideo">Rating: 4.9 / 5</p>
-                          </div>
-                        </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6" id="teksvideo2">
                         <p id="tahunvideo">2021</p>
                     </div>
                 </div>
@@ -170,7 +161,7 @@
             </section>
 
             <!-- ==================================================  Pengenalan Logo  ================================================== -->
-            <div class="container">
+            <div class="container" id="desclogo">
 <script type="text/javascript">
     function changeText1() {
         document.getElementById("pText").innerHTML = "<h3>Filosofi 2</h3> <br>mempunyai arti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
@@ -201,7 +192,7 @@
             </div>
         </div>
 
-        <div class="row logo">
+        <div class="row logo" id="positron">
             <div class="col-6 my-auto mx-auto">
 
                 <div class="icon">
@@ -675,9 +666,11 @@
                 </div>
             </div>
 
-            <div class="col-6 description my-auto mx-auto">
+            <div class="col-6 description my-auto mx-auto" id="text-logo">
+                <div class="card">
                 <p id="pText">POSITRON adalah Lorem ipsum dolor sit amet. </p>
             </div>
+        </div>
         </div>
 
     </section>
@@ -917,11 +910,14 @@
                     <div class="col-6" id="text-timeline">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                 </div>
-                <div class="col-md-1" id="logo-link">
+                <div class="col-6" id="link-logo">                
                     <img src="/asset/icdesc.png" alt="">
+                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                     <img src="/asset/iclink.png" alt="">
+                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                     <img src="/asset/iccalendar.png" alt="">
-                </div>
+                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+            </div>
             </div>
             </div>
 
@@ -931,11 +927,14 @@
                     <div class="col-6" id="text-timeline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                     </div>
-                    <div class="col-md-1" id="logo-link">
+                    <div class="col-6" id="link-logo">                
                         <img src="/asset/icdesc.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                    </div>
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                </div>
                     </div>
                  </div>
 
@@ -945,11 +944,14 @@
                     <div class="col-6" id="text-timeline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                     </div>
-                    <div class="col-md-1" id="logo-link">
+                    <div class="col-6" id="link-logo">                
                         <img src="/asset/icdesc.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                    </div>
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                </div>
                     </div>
                 </div>
 
@@ -959,16 +961,14 @@
                     <div class="col-6" id="text-timeline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                     </div>
-                    <div class="col-md-1" id="logo-link">
+                    <div class="col-6" id="link-logo">                
                         <img src="/asset/icdesc.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                    </div>
-                    <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                    </div>
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                </div>
                     </div>
                 </div>
 
@@ -978,11 +978,14 @@
                     <div class="col-6" id="text-timeline">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
                     </div>
-                    <div class="col-md-1" id="logo-link">
+                    <div class="col-6" id="link-logo">                
                         <img src="/asset/icdesc.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                    </div>
+                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                </div>
                     </div>
                 </div>
                 </div>
