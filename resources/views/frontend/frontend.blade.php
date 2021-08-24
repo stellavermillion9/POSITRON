@@ -51,13 +51,13 @@
                             <a href="#home" class="nav__link active-link">Beranda</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">Kaum</a>
+                            <a href="#timeline" class="nav__link">Timeline</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#discover" class="nav__link">Home</a>
+                            <a href="#panduan" class="nav__link">Panduan</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#place" class="nav__link">Kaum</a>
+                            <a href="#kelompok" class="nav__link">Kelompok</a>
                         </li>
                     </ul>
 
@@ -83,7 +83,7 @@
 
                 <div class="home__container">
                     <div class="home__data ">
-                        <div class="container " id="text-electrical">
+                        <div class="container " id="electrical-text">
                             <h1 id="electrical">POSITRON</h1>
                             <h1 id="electrical">2021</h1>
                             <!-- <h1 class="home__data-title">Positron</b></h1> -->
@@ -164,19 +164,22 @@
             <div class="container" id="desclogo">
 <script type="text/javascript">
     function changeText1() {
-        document.getElementById("pText").innerHTML = "<h3>Filosofi 2</h3> <br>mempunyai arti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 1</h3> <br>melambangkan mahasiswa elektro yang energik, optimis serta percaya diri. 6 Elektron melambangkan 6 prodi jurusan Teknik Elektro.";
     }
     function changeText2() {
-        document.getElementById("pText").innerHTML = "<h3>Filosofi 1</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 2</h3> <br>melambangkan persatuan dan juga sebagai warna identitas jurusan Teknik Elektro. 6 Elektron melambangkan 6 prodi jurusan Teknik Elektro.";
     }
     function changeText3() {
-        document.getElementById("pText").innerHTML = "<h3>Filosofi 3</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 3</h3> <br>melambangkan mahasiswa elektro yang selalu melangkah maju. 6 Elektron melambangkan 6 prodi jurusan Teknik Elektro.";
     }
     function changeText4() {
-        document.getElementById("pText").innerHTML = "<h3>Filosofi 4</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 4</h3> <br>melambangkan mahasiswa elektro yang selalu melangkah maju";
     }
     function changeText5() {
-        document.getElementById("pText").innerHTML = "<h3>Filosofi 5</h3> <br>mempunyai artiLorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 5</h3> <br>Melambangkan mahasiswa Elektro yang rendah hati dan mulia.";
+    }
+    function changeText6() {
+        document.getElementById("pText").innerHTML = "<h3>Filosofi 6</h3> <br>Melambangkan mahasiswa elektro yang kompak antar prodi dengan adannya 7 segment";
     }
     function changeTextdefault() {
         document.getElementById("pText").innerHTML = "POSITRON adalah Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum earum placeat alias, libero unde quae, corrupti blanditiis consectetur, cum soluta ut illum asperiores numquam nostrum nemo. Sequi natus ipsam doloribus.";
@@ -195,10 +198,10 @@
         <div class="row logo" id="positron">
             <div class="col-6 my-auto mx-auto">
 
-                <div class="icon">
+                <div class="container-icon">
                 <svg width="471" height="452" viewBox="0 0 471 452" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="330" height="432"/>
-                <g id="Button-1" onMouseOver="changeText1()" onmouseout="changeTextdefault()">
+               <g id="Button-1" onMouseOver="changeText1()" onmouseout="changeTextdefault()">
                 <path d="M312.789 162.532C308.946 147.716 279.865 145.913 263.618 147.14L264.85 142.242C321.956 139.465 326.109 158.438 321.048 168.271C303.114 212 229.255 236.817 180.568 246.14C162.821 247.034 163.786 245.712 166.487 244.94L190.436 239.268C298.426 214.294 315.76 173.984 312.789 162.532Z" />
                 <path d="M17.1574 245.612C21.0009 260.428 50.082 262.232 66.3293 261.004L65.0968 265.902C7.99052 268.679 3.83706 249.707 8.89866 239.873C26.8329 196.144 108.455 170.272 157.141 160.948C174.888 160.054 173.923 161.376 171.222 162.149L147.274 167.821C33.5686 190.29 14.1867 234.16 17.1574 245.612Z" />
                 <path d="M268.711 147.989C267.071 152.05 262.291 154.073 258.034 152.508C253.778 150.944 251.657 146.384 253.297 142.324C254.937 138.264 259.717 136.241 263.974 137.805C268.23 139.37 270.351 143.929 268.711 147.989Z" />
@@ -334,7 +337,7 @@
                 </g>
                 </g>
                 </g>
-                <g id="Button-2" onMouseOver="changeText1()" onmouseout="changeTextdefault()">
+                <g id="Button-2" onMouseOver="changeText2()" onmouseout="changeTextdefault()">
                 <path d="M208.93 59.4284C193.696 54.7582 176.8 77.4074 169.354 91.2364L165.634 87.6613C193.178 39.8638 212.281 46.4674 218.39 55.7439C247.961 93.2847 226.26 173.335 208.981 217.741C200.448 232.611 199.776 231.134 200.507 228.536L208.039 206.122C245.591 99.9398 220.705 63.0382 208.93 59.4284Z" />
                 <path d="M127.611 342.985C142.846 347.656 159.741 325.007 167.187 311.177L170.908 314.753C143.364 362.55 124.26 355.947 118.152 346.67C88.581 309.129 110.332 229.053 127.612 184.647C136.144 169.777 136.816 171.255 136.085 173.853L128.553 196.266C88.8173 300.342 115.837 339.376 127.611 342.985Z" />
                 <path d="M172.79 87.5492C175.549 91.0144 174.84 95.9567 171.208 98.5881C167.575 101.219 162.393 100.544 159.635 97.0784C156.876 93.6132 157.585 88.6709 161.217 86.0395C164.85 83.4081 170.032 84.084 172.79 87.5492Z" />
@@ -470,7 +473,7 @@
                 </g>
                 </g>
                 </g>
-                <g id="Button-3" onMouseOver="changeText1()" onmouseout="changeTextdefault()">
+                <g id="Button-3" onMouseOver="changeText3()" onmouseout="changeTextdefault()">
                 <path d="M292.166 296.723C302.644 285.188 287.428 261.48 277.012 249.523L281.919 247.661C317.211 290.574 303.351 304.746 292.009 306.468C244.209 317.693 172.702 267.306 136.654 234.729C125.659 221.41 127.348 221.401 129.567 223.061L148.228 238.459C233.013 314.141 284.067 305.639 292.166 296.723Z" />
                 <path d="M50.5982 114.165C40.1199 125.7 55.3363 149.408 65.7523 161.365L60.8457 163.227C25.5526 120.314 39.4129 106.142 50.7546 104.42C98.5549 93.1953 164.72 137.228 200.768 169.804C211.762 183.123 210.073 183.132 207.855 181.473L189.192 166.074C102.3 95.9298 58.6972 105.248 50.5982 114.165Z" />
                 <path d="M279.217 253.986C274.793 255.047 270.305 252.487 269.192 248.268C268.079 244.048 270.762 239.767 275.186 238.705C279.61 237.644 284.098 240.204 285.211 244.423C286.324 248.643 283.64 252.924 279.217 253.986Z" />
@@ -611,7 +614,7 @@
                 <path d="M167.511 231.87C151.773 231.205 139.515 216.907 140.132 199.935C140.749 182.963 154.007 169.744 169.745 170.409C185.483 171.075 197.742 185.372 197.125 202.344C196.508 219.316 183.249 232.535 167.511 231.87Z" fill="#696969"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M169.505 170.402C162.07 170.19 154.852 173.119 149.391 178.564L149.522 178.717L155.491 178.97L171.488 179.646L171.806 179.804C176.081 180.516 180.054 182.708 183.103 186.087C186.744 190.123 188.78 195.534 188.775 201.165C188.77 206.797 186.725 212.204 183.077 216.233C179.428 220.262 174.464 222.594 169.243 222.732C164.022 222.871 158.958 220.804 155.13 216.973C151.302 213.142 149.014 207.851 148.752 202.226C148.503 196.858 150.119 191.592 153.27 187.45L143.412 187.033C141.12 191.821 140.014 197.215 140.268 202.684C140.641 210.695 143.9 218.232 149.352 223.688C154.804 229.144 162.016 232.087 169.452 231.89C176.887 231.693 183.957 228.371 189.154 222.633C194.35 216.895 197.263 209.194 197.27 201.174C197.277 193.153 194.377 185.447 189.191 179.698C184.004 173.95 176.94 170.614 169.505 170.402Z" />
                 </g>
-                <g id="Button-6" onMouseOver="changeText5()" onmouseout="changeTextdefault()">
+                <g id="Button-6" onMouseOver="changeText6()" onmouseout="changeTextdefault()">
                 <path d="M191.958 220.939C194.397 217.875 196.253 214.323 197.42 210.485C198.586 206.647 199.041 202.599 198.756 198.572C198.472 194.545 197.455 190.618 195.764 187.015C194.072 183.412 191.739 180.203 188.897 177.572L181.819 186.463C183.578 188.091 185.022 190.077 186.069 192.308C187.116 194.538 187.746 196.969 187.921 199.461C188.097 201.954 187.816 204.46 187.094 206.835C186.372 209.211 185.223 211.409 183.713 213.306L191.958 220.939Z" />
                 <path d="M191.958 220.94C192.374 220.418 192.773 219.882 193.154 219.332L184.454 212.311C184.218 212.652 183.971 212.984 183.714 213.307L191.958 220.94Z" fill="#FDFDFD"/>
                 <path d="M190.163 178.815C189.705 178.337 189.233 177.876 188.746 177.432L181.726 186.376C182.027 186.651 182.32 186.937 182.603 187.233L190.163 178.815Z" fill="#FDFDFD"/>
@@ -748,9 +751,9 @@
                 </div>
                 </div>
             </div>-->
-
+            <div id="panduan">
     <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="false">
-                <div class="carousel-inner" style="align-content: center">
+                <div class="carousel-inner" style="align-content: center" >
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -836,6 +839,7 @@
           </div>
         </div> -->
         </div>
+    </div>
         </div>
       </div>
     <!--Buku Panduan-->
@@ -884,7 +888,7 @@
             </div>
         </div> -->
 
-
+        <div id="timeline">
         <div class="process-wrapper" data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1000" id="timeline">
@@ -990,6 +994,7 @@
                 </div>
                 </div>
             </div>
+        </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
              <script>
@@ -1029,7 +1034,7 @@
 <script>
     AOS.init();
   </script>
-
+        <div id="kelompok">
         <div class="contain about" id="about" data-aos="fade-down" data-aos-duration="3000">
             <div class="row">
                 <div class="col-6" id="robith">
@@ -1041,6 +1046,7 @@
                     <a href="cari" class="btn" id="cek">Cek Kelompok</a>
                 </div>
             </div>
+        </div>
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();

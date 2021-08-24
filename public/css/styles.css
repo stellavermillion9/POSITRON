@@ -643,7 +643,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 
 
  #Button-1:hover{
-  fill: rgb(34, 126, 15);
+  fill:#F47A20;
   transition: 1s;
 }
 
@@ -659,22 +659,22 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 }
 
  #Button-5:hover{
-  fill: rgb(214, 102, 98);
+  fill: #7CC242;
   transition: 1s;
 }
 
 #Button-6:hover{
-  fill: rgb(165, 50, 46);
+  fill: #F47A20;
   transition: 1s;
 }
 
 #Button-7:hover{
-  fill: rgb(218, 155, 19);
+  fill: #FDFDFD;
   transition: 1s;
 }
 
  #Button-2:hover{
-  fill: rgb(123, 169, 238);
+  fill: #2B2875;
   transition: 1s;
 }
 
@@ -686,7 +686,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 
 
 #Button-3:hover{
-  fill: rgb(0, 247, 255);
+  fill: #7CC242;
   transition: 1s;
 }
 /*=============== ABOUT ===============*/
@@ -1685,7 +1685,7 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 680px){
   #robith{
     width: 100%;
     height: 100%;
@@ -1729,9 +1729,9 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     width: 100%;
   }
 
-  #text-electrical{
-    padding-top: 21rem;
-    font-size: 30px;
+  #electrical-text{
+    padding-top: 14rem;
+    font-size: 20px;
   }
 
   .sponsor__container{
@@ -1747,8 +1747,8 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     padding-right: 10px;
   }
 
-  #text-electrical h1{
-    font-size: 45px;
+  #electrical-text h1{
+    font-size: 30px;
   }
 
   #teksvideo2{
@@ -1817,6 +1817,28 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
     width: 100%;
     height: 100%;
     color: #FFF;
+  }
+
+  .sponsor{
+    background-image: url(/asset/bg7.png);
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  
+  #link-logo img{
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+  
+  #link-logo p{
+    text-align: left;
+    margin-left: 25px;
+  }
+  
+  #pText{
+    margin-left: 3rem;
   }
 }
 
