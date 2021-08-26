@@ -128,7 +128,7 @@
 
 
                     <div class="video__content">
-                        <video id="video-file" width="1920" height="720">
+                        <video id="video-file" width="1920" height="720" controls>
                             <source src="/asset/kaming sunn.mp4" type="video/mp4">
                         </video>
                         <button class="button button--flex video__button" id="video-button">
