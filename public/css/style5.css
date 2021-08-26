@@ -84,16 +84,28 @@ body.dark-theme {
 body{
   width: 100%;
   height: 100%;
+  color: #fff;
 }
 
+#bgkiri {
+    background-image: url(/asset/bgkiri.png);
+    background-size: contain;
+  }
+
+  #bgkanan {
+    background-image: url(/asset/bgkanan.png);
+    background-size: cover;
+  }
+
 .navbar{
-  position: fixed;
+  position:relative;
   width: 100%;
   background:var(--body-color);
 }
 
 .col-md-5 span{
     color: deepskyblue;
+
 }
 
 /*.col-md-5 {
@@ -118,7 +130,6 @@ body{
 
 body{
   width: auto;
-  background-image: url(/img/bgbody.png);
   background-size: cover;
   height: max-content;
 }
@@ -127,6 +138,7 @@ body{
     /*padding-top: 12rem;*/
     float: right;
    padding-top: 12rem;
+   padding-left: 4.5rem;
    /*background: var(--body-color);*/
    background-size: cover;
 }
@@ -135,6 +147,7 @@ body{
     float: left;
     text-align: left;
     padding-top: 15rem;
+    padding-left: 3rem;
     /*background-image: url(/img/bgbody.png);*/
     background-size: cover;
     /*background: rgb(206, 243, 255);*/
@@ -207,7 +220,7 @@ table{
 td{
   border: 2px solid skyblue;;
   padding: 10px 30px;
-  color: black;
+  color: #4d4d4d;
 }
 
 tr:first-child td:first-child{
@@ -240,7 +253,7 @@ tr:last-child td:last-child{
 }
 
 #sosmed .fa{
-  color: black;
+  color: #fff;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -312,3 +325,5 @@ tr:last-child td:last-child{
   margin-bottom: 5rem;
 }
  }
+
+
