@@ -1263,7 +1263,9 @@
                 <div class="sponsor__content">
                     <img src="/img/sponsors1.png" alt="">
                 </div>
-                <div class="sponsor__content">
+            </div>
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content" id="sponsor-c">
                     <img src="/img/sponsors1.png" alt="">
                 </div>
             </div>

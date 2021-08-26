@@ -959,6 +959,15 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   filter: invert(0.5);
 }
 
+.sponsor__container{
+  width: 50%;
+}
+
+#sponsor-c{
+  padding-top: 1rem;
+  width: 50%;
+}
+
 .sponsor__img {
   width: 90px;
   filter: invert(0.7);
@@ -1867,3 +1876,19 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
 /*.icon img{
 
 }*/
+
+@media only screen and (max-width: 400px) {
+  #electrical-text{
+    padding-top: 24rem;
+  }
+
+  .carousel .card{
+    width: 98%;
+    align-content: center;
+  }
+
+  #sponsor-c{
+    width: 50%;
+    padding-top: 1rem;
+  }
+}

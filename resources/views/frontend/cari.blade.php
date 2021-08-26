@@ -37,8 +37,7 @@
     <title>Cari Kelompok</title>
   </head>
   <body>
-      <div class="container">
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-xl navbar-light">
       <div class="container">
           <a href="/" class="navbar-brand">POSITRON</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,10 +59,10 @@
                     </li>
               </ul>
           </div>
-      </div>
  </nav>
 
 <div class="row">
+    <div class="container">
         <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000">
         <h1>Cari tahu <span>tim</span><br> dan mentor kamu</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima unde dolore alias!</p>
@@ -107,6 +106,7 @@
           </table>
           @endforeach
     </div>
+</div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script>
                     AOS.init();
