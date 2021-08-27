@@ -10,21 +10,21 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <script type="text/javascript" src="js/jquery.js"></script>
-	    <script type="text/javascript" src="js/bootstrap.js"></script>	
+	    <script type="text/javascript" src="js/bootstrap.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
 
-        
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
+
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
@@ -37,7 +37,8 @@
     <title>Cari Kelompok</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-xl navbar-light">
+
+    <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container">
           <a href="/" class="navbar-brand">POSITRON</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,10 +60,10 @@
                     </li>
               </ul>
           </div>
+      </div>
  </nav>
 
-<div class="row">
-    <div class="container">
+<div class="row" id="bgkiri">
         <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000">
         <h1>Cari tahu <span>tim</span><br> dan mentor kamu</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima unde dolore alias!</p>
@@ -76,8 +77,8 @@
                     AOS.init();
                   </script>
 </div>
-    <div class="col-md-7" data-aos="fade-left" data-aos-duration="3000">
-        <form class="cari" action="/cari" method="GET"> 
+    <div class="col-md-7" data-aos="fade-left" data-aos-duration="3000"  id="bgkanan">
+        <form class="cari" action="/cari" method="GET">
             <button type="submit" class="btn" value="CARI"><span class="fa fa-search"></span></button>
               <input type="search" name="cari" id="search" placeholder="Masukkan NIM" value="{{old('cari')}}">
           </form>
@@ -106,12 +107,11 @@
           </table>
           @endforeach
     </div>
-</div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script>
                     AOS.init();
                   </script>
-</div>
+
 
 <!--<footer>
  <div class="card-footer">
@@ -142,15 +142,15 @@
             </footer>
         </div>
       </div>
-      
-    
-      <div class="col-sm-7" id="kolom2"> 
-        <form class="cari" action="/cari" method="GET"> 
+
+
+      <div class="col-sm-7" id="kolom2">
+        <form class="cari" action="/cari" method="GET">
             <button type="submit" class="btn" value="CARI"><span class="fa fa-search"></span></button>
               <input type="search" name="cari" id="search" placeholder="Masukkan NIM" value="{{old('cari')}}">
           </form>
-        
-        <div id="progress-content hide">  
+
+        <div id="progress-content hide">
         @foreach ($data as $d)
           <div class="container" id="hlo">
               <h1>Halo, <span>{{ $d->nama }}</span> </h1>
@@ -190,11 +190,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 
-    
+
 </div>
 
 
 
 </body>
-  
+
 </html>
