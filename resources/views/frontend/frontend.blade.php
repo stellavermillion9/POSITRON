@@ -633,7 +633,7 @@
                                 <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
                                     <div class="container">
                                         <a href="https://bit.ly/ManualBookPOSITRON2021FullVersion">
-                                    <img id="Img" src="img/place1.jpg" class="d-block w-10" alt="..."></a>
+                                    <img id="Img" src="asset/panduan.png" class="d-block w-10" alt="..."></a>
                                 </div>
                                 </div>
                                 </div>
@@ -655,7 +655,7 @@
                                 <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
                                     <div class="container">
                                         <a href="https://drive.google.com/drive/folders/1IpBhWApYPV2GoAal2pDbFtfsvT7Ayc7F?usp=sharing">
-                                    <img id="Img" src="img/place2.jpg" class="d-block w-10" alt="..."></a>
+                                    <img id="Img-twibbon" src="/asset/twibbon.png" class="d-block w-10" alt="..." width="200px" height="400px"></a>
                                 </div>
                                 </div>
                             </div>

@@ -1600,6 +1600,10 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
   background-size: cover;
 }
 
+.carousel button{
+  margin-top: 50px;
+}
+
 #about{
   background-image: url(/asset/bg5.png);
   background-size: cover;
@@ -1931,6 +1935,14 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
       width: 50%;
       height: 50%;
     }
+  }
+
+  #Img-twibbon{
+    height: 30%;
+  }
+
+  #Img-twibbon:hover{
+    opacity: 0.5;
   }
 
   #text-logo .card{
