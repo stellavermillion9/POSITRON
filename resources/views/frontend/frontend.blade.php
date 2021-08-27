@@ -99,7 +99,7 @@
 
 
                     <div class="video__content">
-                        <video id="video-file" width="1920" height="720" controls>
+                        <video id="video-file" width="1920" height="720">
                             <source src="/asset/kaming sunn.mp4" type="video/mp4">
                         </video>
                         <button class="button button--flex video__button" id="video-button">
@@ -152,8 +152,8 @@
 
     <section class="logo__description section">
 
-        <div class="row" >
-            <div class="col-6 ">
+        <div class="row" id="logo-positron">
+            <div class="col-6">
                 <p id="tekspengenalan">Pengenalan Logo<br>POSITRON 2021</p>
             </div>
         </div>
@@ -620,7 +620,8 @@
                                     <div class="row">
                                 <div class="col-md-4 offset-md-2" data-aos="fade-right" data-aos-duration="3000">
                                     <div class="card">
-                                    <h1 class="a"> BUKU PANDUAN POSITRON 2021</h1>
+                                        <a href="https://bit.ly/ManualBookPOSITRON2021FullVersion">
+                                    <h1 class="a"> BUKU PANDUAN POSITRON 2021</h1></a>
                                   <p class="a">Iya, buku ini adalah handbook bagi Mahasiswa Baru dalam menuntun kamu menyelesaikan semua kegiatan di serangkaian Orientasi Studi dan Pengenalan Kampus di Tingkat Jurusan Teknik Elektro.<br>Gaperlu doi buat menuntun kamu, handbook ini juga bisa!</p>
                                 </div>
                                 <div class="container">
@@ -631,7 +632,8 @@
                             </div>
                                 <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
                                     <div class="container">
-                                    <img id="Img" src="img/place1.jpg" class="d-block w-10" alt="...">
+                                        <a href="https://bit.ly/ManualBookPOSITRON2021FullVersion">
+                                    <img id="Img" src="img/place1.jpg" class="d-block w-10" alt="..."></a>
                                 </div>
                                 </div>
                                 </div>
@@ -640,7 +642,8 @@
                                     <div class="row">
                                 <div class="col-md-4 offset-md-2" data-aos="fade-right" data-aos-duration="3000">
                                     <div class="card">
-                                    <h1 class="a">Twibbon</h1>
+                                    <a href="https://drive.google.com/drive/folders/1IpBhWApYPV2GoAal2pDbFtfsvT7Ayc7F?usp=sharing">
+                                    <h1 class="a">Twibbon</h1></a>
                                     <p class="a">Yuhuuuuuu, tunjukkan rasa bangga kamu setelah masuk di Jurusan Teknik Elektro dengan memasang twibbon di sosial media instagram.<br>Iya, pamerin ajaa ke temen-temenmu :></p>
                                 </div>
                                 <div class="container">
@@ -651,7 +654,8 @@
                             </div>
                                 <div class="col-md-4 offset-md-1" data-aos="fade-left" data-aos-duration="3000">
                                     <div class="container">
-                                    <img id="Img" src="img/place2.jpg" class="d-block w-10" alt="...">
+                                        <a href="https://drive.google.com/drive/folders/1IpBhWApYPV2GoAal2pDbFtfsvT7Ayc7F?usp=sharing">
+                                    <img id="Img" src="img/place2.jpg" class="d-block w-10" alt="..."></a>
                                 </div>
                                 </div>
                             </div>
@@ -681,8 +685,8 @@
             <div id="progress-bar-container">
                 <ul>
                     <li class="step step01 active"><div class="step-inner">Upacara Penerimaan Maba</div></li>
-                    <li class="step step02"><div class="step-inner">Forum 1 dan Penugasan</div></li>
-                    <li class="step step03"><div class="step-inner">Online Course</div></li>
+                    <li class="step step02"><div class="step-inner">Forum Maba</div></li>
+                    <li class="step step03"><div class="step-inner">Latihan Dasar Kepemimpinan</div></li>
                     <li class="step step04"><div class="step-inner">Introduction of Himpunan</div></li>
                     <li class="step step05"><div class="step-inner">NAKO 5.0</div></li>
                 </ul>
@@ -698,49 +702,52 @@
                     <h2>Upacara Penerimaan Maba</h2>
                     <div class="row">
                     <div class="col-6" id="text-timeline">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                    <p>Upacara Penerimaan MABA merupakan awal dari kegiatan serangkaian ospek Jurusan Teknik Elektro. Kegiatan ini berfungsi untuk menyambut mahasiswa baru Jurusan Teknik Elektro.</p>                
                 </div>
                 <div class="col-6" id="link-logo">
-                    <img src="/asset/icdesc.png" alt="">
-                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                    <img src="/asset/iclink.png" alt="">
-                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                     <img src="/asset/iccalendar.png" alt="">
-                    <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                    <p id="abcdef">4 September 2021</p>
+                    <a href="https://bit.ly/ManualBookUpacaraPembukaanPOSITRON2021">
+                    <img src="/asset/iclink.png" alt="">
+                    <p id="abcdef">https://bit.ly/ManualBookUpacaraPembukaanPOSITRON2021</p></a>
+                    <img src="/asset/icrules.png" alt="">
+                    <p id="abcdef">Ketentuan Kegiatan Ada di Manual Book</p>
             </div>
             </div>
             </div>
 
                 <div class="section-content strategy">
-                    <h2>Forum 1 dan Penugasan</h2>
+                    <h2>Forum Maba</h2>
                     <div class="row">
                     <div class="col-6" id="text-timeline">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                        <p>Forum merupakan wadah untuk sosialisasi serangkaian ospek jurusan yang diadakan oleh Himpunan Mahasiswa Jurusan Teknik Elektro yang diperuntukkan mahasiswa baru Jurusan Teknik  Elektro.</p>
                     </div>
                     <div class="col-6" id="link-logo">
-                        <img src="/asset/icdesc.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <img src="/asset/iclink.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p id="abcdef">11 September 2021</p>
+                        <a href="https://bit.ly/ManualBookForumMaba">
+                        <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">https://bit.ly/ManualBookForumMaba</p></a>
+                        <img src="/asset/icrules.png" alt="">
+                        <p id="abcdef">Ketentuan Kegiatan Ada di Manual Book</p>
                 </div>
                     </div>
                  </div>
 
                 <div class="section-content creative">
-                    <h2>Online Course</h2>
+                    <h2>Latihan Dasar Kepemimpinan</h2>
                     <div class="row">
                     <div class="col-6" id="text-timeline">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                        <p>LDK kegiatan pelatihan dasar yang berkaitan dengan kepemimpinan. LDK bertujuan agar mahasiswa Teknik Elektro siap menghadapi dunia kerja yang tidak hanya memerlukan hard skill saja namun harus diimbangi oleh attitude dan manajamen diri yang baik pula. Sehingga diperlukan pelatihan untuk hal ini.</p>
                     </div>
                     <div class="col-6" id="link-logo">
-                        <img src="/asset/icdesc.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <img src="/asset/iclink.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p id="abcdef"> Hari-1 9 Oktober 2021 <br> Hari-2 19 Oktober 2021</p>
+                        <a href="https://bit.ly/ManualBookLDK">
+                        <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">https://bit.ly/ManualBookLDK</p></a>
+                        <img src="/asset/icrules.png" alt="">
+                        <p id="abcdef">Ketentuan Kegiatan Ada di Manual Book</p>
                 </div>
                     </div>
                 </div>
@@ -749,15 +756,16 @@
                     <h2>Introduction of Himpunan</h2>
                     <div class="row">
                     <div class="col-6" id="text-timeline">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                        <p>IoH (Introduction of Himpunan) bertujuan untuk memperkenalkan Himpunan Jurusan Teknik Elektro kepada mahasiswa baru di Jurusan Teknik Elektro.</p>
                     </div>
                     <div class="col-6" id="link-logo">
-                        <img src="/asset/icdesc.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <img src="/asset/iclink.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p id="abcdef">23 Oktober 2021</p>
+                        <a href="https://bit.ly/ManualBookIoH">
+                        <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">https://bit.ly/ManualBookIoH</p></a>
+                        <img src="/asset/icrules.png" alt="">
+                        <p id="abcdef">Ketentuan Kegiatan Ada di Manual Book</p>
                 </div>
                     </div>
                 </div>
@@ -766,15 +774,16 @@
                     <h2>NAKO 5.0</h2>
                     <div class="row">
                     <div class="col-6" id="text-timeline">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+                        <p>NAKO 5.0 adalah acara puncak dari serangkaian kegiatan pengenalan mahasiswa baru jurusan Teknik elektro 2021. Acara ini adalah bentuk apresiasi dari jurusan kepada mahasiswa baru dalam menyambut dan memperkenalkan jurusan Teknik elektro. Selain itu acara ini juga menjadi ajang unjuk kemampuan mahasiswa baru dalam bidang seni. Adanya acara ini berguna untuk mempererat tali silaturahmi antar mahasiswa baru jurusan Teknik Elektro.</p>
                     </div>
                     <div class="col-6" id="link-logo">
-                        <img src="/asset/icdesc.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
-                        <img src="/asset/iclink.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
                         <img src="/asset/iccalendar.png" alt="">
-                        <p id="abcdef">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt.</p>
+                        <p id="abcdef">3 Desember 2021</p>
+                        <a href="https://bit.ly/ManualBookNAKO50">
+                        <img src="/asset/iclink.png" alt="">
+                        <p id="abcdef">https://bit.ly/ManualBookNAKO50</p></a>
+                        <img src="/asset/icrules.png" alt="">
+                        <p id="abcdef">Ketentuan Kegiatan Ada di Manual Book</p>
                 </div>
                     </div>
                 </div>
@@ -832,7 +841,7 @@
                 </div>
                 <div class="col-6" id="about-text">
                     <h1>Sudah Siap <br>Jadi Yang <span>Terbaik?</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eaque.</p>
+                    <p>Ayo cari tahu teman kelompok yang akan menemani kamu selama POSITRON berlangsung!, dan siapkan kelompokmu menjadi yang terbaik!</p>
                     <a href="cari" class="btn" id="cek">Cek Kelompok</a>
                 </div>
             </div>
@@ -845,7 +854,7 @@
 
             <!--==================== SPONSORS ====================-->
 
-            <div class="sponsor" data-aos="fade-right" data-aos-duration="3000">
+           <!-- <div class="sponsor" data-aos="fade-right" data-aos-duration="3000">
                 <div id="content-sponsor" style="text-align: center">
                     <h1>Rekan Media</h1>
                     <p>ini adalah rekan media POSITRON tahun 2021</p>
@@ -867,7 +876,7 @@
             <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>
+  </script>-->
         <!--==================== REKAN MEDIA ====================-->
 
        <!--==================== FOOTER ====================-->

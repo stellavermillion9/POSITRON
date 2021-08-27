@@ -38,7 +38,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd">
       <div class="container">
           <a href="/" class="navbar-brand">POSITRON</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,26 +47,23 @@
           <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                   <li class="navbar-item">
-                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                      <a href="/#home" class="nav-link active" aria-current="page">Beranda</a>
                   </li>
                   <li class="navbar-item">
-                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                      <a href="/#timeline" class="nav-link active" aria-current="page">Timeline</a>
                   </li>
                   <li class="navbar-item">
-                      <a href="/" class="nav-link active" aria-current="page">Home</a>
+                      <a href="/#panduan" class="nav-link active" aria-current="page">Panduan</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
               </ul>
           </div>
       </div>
  </nav>
 
 <div class="row" id="bgkiri">
-        <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000">
+        <div class="col-md-5" data-aos="fade-right" data-aos-duration="3000" style="color: white">
         <h1>Cari tahu <span>tim</span><br> dan mentor kamu</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima unde dolore alias!</p>
+        <p>Kamu akan tergabung dengan tim dan kakak mentor untuk membantu dalam mengikuti serangkaian orientasi studi dan pengenalan kampus di jurusan Teknik Elektro Universitas Negeri Malang</p>
         <div id="sosmed">
     <a href="#" class="fa fa-instagram">@hmjelektro_um</a>
     <a href="#" class="fa fa-facebook">@hmjelektro_um</a>
@@ -80,14 +77,14 @@
     <div class="col-md-7" data-aos="fade-left" data-aos-duration="3000"  id="bgkanan">
         <form class="cari" action="/cari" method="GET">
             <button type="submit" class="btn" value="CARI"><span class="fa fa-search"></span></button>
-              <input type="search" name="cari" id="search" placeholder="Masukkan NIM" value="{{old('cari')}}">
+              <input type="search" name="cari" id="search" placeholder="Masukkan Nomor Induk Mahasiswa" value="{{old('cari')}}">
           </form>
 
           <div id="read"></div>
           @foreach($data as $d)
           <div id="hlo">
               <h1>Halo, <span>{{$d->nama}}</span> </h1>
-              <p>Lorem ipsum dolor sit amet consectetur {{$d->offering}}, adipisicing elit. Doloribus, autem.</p>
+              <p>Kamu tergabung dalam tim  <span>{{$d->kelompok}}</span>, Hubungi teman dan kakak mentor kamu yaaaa! </p>
           </div>
           <table class="content-table">
               <thead>

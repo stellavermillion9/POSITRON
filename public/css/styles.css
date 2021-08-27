@@ -1917,4 +1917,22 @@ svg #Button-1, #Button-2, #Button-3, #Button-4, #Button-5{
       width: 50%;
       padding-top: 1rem;
     }
+
+    #logo-positron{
+      grid-template-columns: 1;
+    }
+
+    #tekspengenalan {
+      font-size:24px ;
+      text-align: left;
+    }
+
+    #positron{
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+  #text-logo .card{
+    width: 150%;
   }
